@@ -58,3 +58,14 @@ Note: DBA-002 and DBA-003 remain earlier planned placeholders. DBA-012 and DBA-0
 | DBA-021 | Administration | Security and custom types | Draft | [SQL](01-Administration/System-Catalog-FAQ/05-security-and-types.sql) |
 
 [Easy-to-follow guide](01-Administration/System-Catalog-FAQ/README.md). Inspired by the Microsoft Learn System Catalog FAQ. Not yet executed against SQL Server.
+
+## Three-Node Always On Query Store Incident (Hypothetical Draft)
+
+| ID | Domain | Item | Status | File |
+|---|---|---|---|---|
+| DBA-022 | Production incident | AG health and replica roles | Draft | [SQL](09-Production-Incidents/Query-Store-Waits-Three-Node-AG/01-check-ag-health.sql) |
+| DBA-023 | Production incident | Query Store waits by plan and replica | Draft | [SQL](09-Production-Incidents/Query-Store-Waits-Three-Node-AG/02-query-store-waits.sql) |
+| DBA-024 | Production incident | Query Store plan/runtime comparison | Draft | [SQL](09-Production-Incidents/Query-Store-Waits-Three-Node-AG/03-query-plan-comparison.sql) |
+| DBA-025 | Production incident | Live blocking on affected replica | Draft | [SQL](09-Production-Incidents/Query-Store-Waits-Three-Node-AG/04-live-blocking.sql) |
+
+[Case study and runbook](09-Production-Incidents/Query-Store-Waits-Three-Node-AG/README.md). Hypothetical incident; no live SQL Server validation or production results.
