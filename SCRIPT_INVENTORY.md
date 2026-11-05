@@ -31,3 +31,18 @@ Inventory entries are planning placeholders, not claims of completed work.
 - **Operational risks:**
 - **Testing evidence:**
 - **Status:** Planned / Draft / Validated
+
+## Query Tuning DMV Workflow (Draft; not SQL Server tested)
+
+| ID | Domain | Item | Status | File |
+|---|---|---|---|---|
+| DBA-011 | Performance | Top 10 expensive cached statements | Draft | [SQL](02-Performance-Tuning/Query-Tuning-DMV-Workflow/01-top-expensive-queries.sql) |
+| DBA-012 | Performance | Wait statistics ordered by total wait | Draft | [SQL](02-Performance-Tuning/Query-Tuning-DMV-Workflow/02-wait-statistics.sql) |
+| DBA-013 | Performance | Current blocking and locking | Draft | [SQL](02-Performance-Tuning/Query-Tuning-DMV-Workflow/03-current-blocking.sql) |
+| DBA-014 | Performance | Per-database file I/O latency | Draft | [SQL](02-Performance-Tuning/Query-Tuning-DMV-Workflow/04-file-io-latency.sql) |
+| DBA-015 | Performance | Example index optimization | Draft | [SQL](02-Performance-Tuning/Query-Tuning-DMV-Workflow/05-example-index-optimization.sql) |
+| DBA-016 | Performance | Baseline and verification template | Draft | [SQL](02-Performance-Tuning/Query-Tuning-DMV-Workflow/06-baseline-and-verify.sql) |
+
+[Workflow guide and execution-plan checklist](02-Performance-Tuning/Query-Tuning-DMV-Workflow/README.md).
+
+Note: DBA-002 and DBA-003 remain earlier planned placeholders. DBA-012 and DBA-013 are newly authored drafts, not validated scripts.
