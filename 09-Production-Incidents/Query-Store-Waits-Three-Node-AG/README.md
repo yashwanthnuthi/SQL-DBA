@@ -3,10 +3,6 @@
 **Status: Draft scenario and scripts. No production incident is claimed.**
 Reference: [Microsoft Learn — sys.query_store_wait_stats](https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-query-store-wait-stats-transact-sql?view=sql-server-ver17).
 
-## Explain it like you're in fifth grade
-
-Three SQL Servers hold copies of the same database. The **primary** accepts changes, a **secondary** keeps a synchronized copy, and **DR** keeps another copy for a disaster. Query Store is a notebook of how queries performed. Wait statistics say what slowed them down, like waiting for a locked door or a slow hard drive.
-
 ## Example environment (invented for learning)
 
 - AG: `AG_SALES_PROD`; database: `SalesDB`
