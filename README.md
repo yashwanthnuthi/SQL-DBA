@@ -15,6 +15,9 @@ A growing portfolio of Microsoft SQL Server administration, performance tuning, 
 ## Featured technical walkthroughs
 - [Query tuning using DMVs: seven-step diagnostic workflow](02-Performance-Tuning/Query-Tuning-DMV-Workflow/README.md) — six draft T-SQL scripts, execution-plan checklist, and baseline guidance (not yet SQL Server tested).
 
+## System catalog reference
+- [System Catalog FAQ: beginner-friendly SQL scripts](01-Administration/System-Catalog-FAQ/README.md) — tables, indexes, procedures, dependencies, and security (draft, not yet tested).
+
 ## Explore the portfolio
 - [Script inventory](SCRIPT_INVENTORY.md)
 - [Development roadmap](ROADMAP.md)
