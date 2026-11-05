@@ -18,9 +18,6 @@ A growing portfolio of Microsoft SQL Server administration, performance tuning, 
 ## System catalog reference
 - [System Catalog FAQ: beginner-friendly SQL scripts](01-Administration/System-Catalog-FAQ/README.md) — tables, indexes, procedures, dependencies, and security (draft, not yet tested).
 
-## Production incident practice
-- [Three-node Always On AG: Query Store wait-statistics incident](09-Production-Incidents/Query-Store-Waits-Three-Node-AG/README.md) — hypothetical production-style runbook and four draft scripts.
-
 ## Explore the portfolio
 - [Script inventory](SCRIPT_INVENTORY.md)
 - [Development roadmap](ROADMAP.md)
