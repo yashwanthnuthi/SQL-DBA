@@ -46,3 +46,15 @@ Inventory entries are planning placeholders, not claims of completed work.
 [Workflow guide and execution-plan checklist](02-Performance-Tuning/Query-Tuning-DMV-Workflow/README.md).
 
 Note: DBA-002 and DBA-003 remain earlier planned placeholders. DBA-012 and DBA-013 are newly authored drafts, not validated scripts.
+
+## System Catalog FAQ (Beginner-Friendly Drafts)
+
+| ID | Domain | Item | Status | File |
+|---|---|---|---|---|
+| DBA-017 | Administration | Tables and columns | Draft | [SQL](01-Administration/System-Catalog-FAQ/01-tables-and-columns.sql) |
+| DBA-018 | Administration | Indexes, keys and statistics | Draft | [SQL](01-Administration/System-Catalog-FAQ/02-indexes-keys-statistics.sql) |
+| DBA-019 | Administration | Views, procedures and functions | Draft | [SQL](01-Administration/System-Catalog-FAQ/03-views-procedures-functions.sql) |
+| DBA-020 | Administration | Constraints and dependencies | Draft | [SQL](01-Administration/System-Catalog-FAQ/04-constraints-dependencies.sql) |
+| DBA-021 | Administration | Security and custom types | Draft | [SQL](01-Administration/System-Catalog-FAQ/05-security-and-types.sql) |
+
+[Easy-to-follow guide](01-Administration/System-Catalog-FAQ/README.md). Inspired by the Microsoft Learn System Catalog FAQ. Not yet executed against SQL Server.
