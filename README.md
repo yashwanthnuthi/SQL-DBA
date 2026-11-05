@@ -12,6 +12,9 @@ A growing portfolio of Microsoft SQL Server administration, performance tuning, 
 - PowerShell and T-SQL automation
 - Incident response and root cause analysis
 
+## Featured technical walkthroughs
+- [Query tuning using DMVs: seven-step diagnostic workflow](02-Performance-Tuning/Query-Tuning-DMV-Workflow/README.md) — six draft T-SQL scripts, execution-plan checklist, and baseline guidance (not yet SQL Server tested).
+
 ## Explore the portfolio
 - [Script inventory](SCRIPT_INVENTORY.md)
 - [Development roadmap](ROADMAP.md)
